@@ -1,0 +1,14 @@
+.headerlist {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.headerlist:hover{
+    color: #fff;
+}
+.headerlist:active{
+    color: #f00;
+}
+/* .headerlist p {
+  margin-bottom: 0px;
+} */

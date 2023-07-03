@@ -1,0 +1,62 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.header {
+  background-color: #4a5568;
+  color: #edf2f7;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.2rem;
+  user-select: none;
+}
+@media (min-width: 640px) {
+    .header {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+.headerTitle {
+  display: flex;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-right: 10px;
+}
+
+.headerIcon {
+  width: 30px;
+  height: 30px;
+}
+.logo{
+    cursor: pointer;
+    margin-right: 10px;
+}
+.logo:active{
+    filter: brightness(1.1);
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  background-color: #4b5563f9;
+  color: #f9fafb;
+  user-select: none;
+  font-size: 1.25rem;
+}
+.navbar h2{
+  margin: 1.5rem;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: large;
+}
+.navbar h2:hover{
+  color: #fff;
+}
+
+.navbar h2:active{
+  color: #f87171;
+}
